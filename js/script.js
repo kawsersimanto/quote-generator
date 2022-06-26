@@ -9,10 +9,10 @@ button.addEventListener("click", () => {
 async function getQuotes() {
   const response = await fetch("https://api.quotable.io/random");
   const { content: quote, author: authorName } = await response.json();
-  console.log(quote);
 
   const paragraph = document.querySelector(".card-text");
   const small = document.querySelector(".author small");
+
   paragraph.innerText = `"${quote}"`;
   small.innerText = `- ${authorName}`;
   copyButton.addEventListener("click", () => {
