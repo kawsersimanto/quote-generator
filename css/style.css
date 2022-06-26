@@ -1,5 +1,3 @@
-/* global styles  */
-
 :root{
   --primary-color: #0d6efd;
   --accent-color: #8e8e8e;
@@ -28,21 +26,3 @@ body{
   color: var(--primary-color);
   background-color: var(--white);
 }
-
-.fa-quote-left{
-  position: absolute;
-  left: 5%;
-  font-size: 25px;
-  top: 32%;
-  opacity: .5;
-}
-
-.fa-quote-right{
-  position: absolute;
-  top: 50%;
-  right: 5%;
-  font-size: 25px;
-  opacity: .5;
-}
-
-/* global styles  */
